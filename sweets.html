@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suraj yadav da dhaba</title>
+    <style>
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 110vh;
+    width: 100vw;
+   background-color: #3A1C71;
+   background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.navcontainer{
+    width: 100vw;
+background-color: rgba(128, 128, 196, 0.568);
+background-image: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+min-height: 50px;
+}
+nav{
+    width: 100%;
+}
+#navlist{
+    width: 100%;
+    padding: 15px;
+  margin-right: 20px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#navlogo{
+    font-size: 2.8rem;
+    color: beige;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#nawitem{
+    display: flex;
+    gap: 10px;
+}
+#footerbox{
+    background-color: rgba(128, 128, 196, 0.568);
+background-image: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+width: 100%;
+text-align: center;
+min-height: 20px;
+}
+#footerbox p{
+    color: azure;
+    font-size: 1rem;
+}
+.contantbox{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+    box-shadow: 2px 2px 20px black ;
+}
+.rightbox{
+    position: relative;
+    overflow: hidden;
+}
+.rightbox img{
+    width: 400px;
+    border-radius: 20px;
+transition: all 0.6s linear 0s;
+}
+.rightbox img:hover{
+    transform: scale(1.1);
+}
+.item{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+
+}
+.leftbox{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.leftbox h2{
+    margin: auto;
+font-size: 2rem;
+
+}
+#ingbox{
+    margin: auto;
+    font-size: 1rem;
+
+}
+#recipebox{
+    font-size: 1rem;
+}
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="navcontainer">
+            <navlist>
+                <ul id="navlist">
+                    <li> 
+                       <p id="navlogo">A celebration of banarasi desserts</p> 
+                    </li>
+                    <li>
+                        <div id="nawitem">
+                            <a href="#">Home</a>
+                        <a href="#">contact</a>
+                        <a href="#">about</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+       
+        </div>
+    </header>
+<main>
+    <div class="contantbox">
+     <section> 
+        <div class="item">
+            <div class="leftbox">
+             <h2>Gulab jamun</h2>
+             <div> <h2>what would you like to eat</h2>
+                <ul>
+                   <li>Khoya gulab jamun</li>
+                   <li> Dry gulab jamun</li>
+                   <li>Stuffed gulab jamun</li>
+                </ul>
+             </div>
+            <div>    <h2>Recipe</h2>
+                <ol>
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, adipisci. </li>
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                   <li>Lorem ipsum dolor sit.</li>
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                </ol>
+            </div>
+          
+            </div>
+            <div class="rightbox">
+                <img src="https://t4.ftcdn.net/jpg/06/21/54/41/240_F_621544128_inBjLYomzXLGFiNVri9ebirH1MMJ7ige.jpg" alt="jamun">
+            </div>
+        </div>
+     </section>
+     <section> 
+        <div class="item">
+            <div class="leftbox">
+
+             <h2> Burfi</h2>
+             <div> <h2>Ingredients</h2>
+                <ul id="ingbox">
+                   <li>Sugar</li>
+                   <li> Bread</li>
+                   <li>Oil</li>
+                </ul>
+             </div>
+            <div>    <h2>Recipe</h2>
+                <ol id="recipebox">
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, adipisci. </li>
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                   <li>Lorem ipsum dolor sit.</li>
+                   <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                </ol>
+            </div>
+          
+            </div>
+            <div class="rightbox" id="gulab">
+                <img src="https://t3.ftcdn.net/jpg/06/53/11/86/240_F_653118698_Ro0SSU56dixjT9hzzJSZTmFxcJeOMbM1.jpg" alt="barfi">
+            </div>
+        </div>
+     </section>
+    </div>
+</main>
+<footer> 
+    <div  id="footerbox">
+    <p> suraj yadav &copy; pvt ltd 2025</p>
+<p>This document is protected by copyright &#169; 2025.</p>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>
